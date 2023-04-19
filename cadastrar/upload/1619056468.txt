@@ -1,0 +1,1 @@
+SELECT * FROM tb_atas WHERE id_ata IN (SELECT DISTINCT id_ata FROM tb_itens)
